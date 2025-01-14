@@ -1,11 +1,11 @@
-ccminer-dyn Dynamic Nvidia GPU miner
-========================
+ccminer-0dync Zero Dynamics Cash Nvidia GPU miner
+=================================================
 
-This fork is only meant to be used to mine Dynamic (DYN) with Argon2d algorithm.
+This fork is only meant to be used to mine Zero Dynamics Cash (0DYNC) with Argon2d algorithm.
 
-releases: https://github.com/duality-solutions/Dynamic-GPU-Miner-Nvidia/releases
+releases: https://github.com/Zero-Dynamics/Cash-GPU-Miner-Nvidia/releases
 
-git tree: https://github.com/duality-solutions/Dynamic-GPU-Miner-Nvidia
+git tree: https://github.com/Zero-Dynamics/Cash-GPU-Miner-Nvidia
 
 Donation addresses
 -------------------
@@ -14,7 +14,7 @@ Please consider supporting this project by donating to these addresses (EhssanD)
 
 	BTC  : 15h2QmsRwwwEdNNC6HbYHJU9mpbLrjUdDK
 
-  	DYN  : DKPnTs1s71DtesAvvLMchtsj4gRFxphW55
+  	0DYND  : DKPnTs1s71DtesAvvLMchtsj4gRFxphW55
 
 Based on Christian Buchner's &amp; Christian H.'s CUDA project and tpruvot@github.
 
@@ -66,7 +66,7 @@ To rebuild them, you need to clone this repository and its submodules :
 Sample command line
 ----------------------------------------
 
-ccminer -a argon2d -o stratum+tcp://server:port -u walletaddress -p c=DYN
+ccminer -a argon2d -o stratum+tcp://server:port -u walletaddress -p c=0DYNC
 
 You can also use --intensity/-i (1-40) to increase gpu memory utilization.
 

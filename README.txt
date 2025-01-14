@@ -1,5 +1,5 @@
 
-ccminer-dyn Dynamic AMD GPU miner
+ccminer-0dync Cash AMD GPU miner
 ---------------------------------------------------------------
 
 ***************************************************************
@@ -12,7 +12,7 @@ tpruvot@github:
 
 EhssanD:
   BTC  : 15h2QmsRwwwEdNNC6HbYHJU9mpbLrjUdDK
-  DYN  : DKPnTs1s71DtesAvvLMchtsj4gRFxphW55
+  0DYNC  : DKPnTs1s71DtesAvvLMchtsj4gRFxphW55
   
 
 ***************************************************************
@@ -21,7 +21,7 @@ EhssanD:
 
 This is a CUDA accelerated mining application which handle :
 
-Dynamic (argon2d)
+Dynamic & Zero Dynamics Cash (argon2d)
 Decred (Blake256 14-rounds - 180 bytes)
 HeavyCoin & MjollnirCoin
 FugueCoin
@@ -72,7 +72,7 @@ This code is based on the pooler cpuminer and inherits
 its command line interface and options.
 
   -a, --algo=ALGO       specify the algorithm to use
-                          argon2d     use to mine Dynamic
+                          argon2d     use to mine Dynamic, Zero Dynamics Cash
                           bastion     use to mine Joincoin
                           bitcore     use to mine Bitcore's Timetravel10
                           blake       use to mine Saffroncoin (Blake256)
@@ -222,8 +222,8 @@ Wildkeccak specific:
 >>> Examples <<<
 
 
-Example for Dynamic Mining on mininpatriot.com with a single gpu in your system
-    ccminer -t 1 -a argon2d -o stratum+tcp://mine.miningpatriot.com:4239 -u walletaddress -p c=DYN
+Example for Cash Mining on mininpatriot.com with a single gpu in your system
+    ccminer -t 1 -a argon2d -o stratum+tcp://mine.miningpatriot.com:4239 -u walletaddress -p c=0DYNC
 
 For solo-mining you typically use -o http://127.0.0.1:xxxx where xxxx represents
 the rpcport number specified in your wallet's .conf file and you have to pass the same username

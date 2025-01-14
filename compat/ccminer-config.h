@@ -152,16 +152,16 @@
 /* #undef NO_MINUS_C_MINUS_O */
 
 /* Name of package */
-#define PACKAGE "ccminer-dyn"
+#define PACKAGE "ccminer-0dync"
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT ""
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "ccminer-dyn"
+#define PACKAGE_NAME "ccminer-0dync"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://github.com/duality-solutions/Dynamic-GPU-Miner-Nvidia"
+#define PACKAGE_URL "https://github.com/Zero-Dynamics/Cash-GPU-Miner-Nvidia"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "1.0.0"
